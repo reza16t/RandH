@@ -3,27 +3,32 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-snap-type: x;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+  }
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "DM Sass", sans-serif;
   }
-  html {
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-  }
+
   body {
     @apply bg-dark-100 text-primary-500;
   }
   section {
+    width: 100vw;
     height: 100dvh;
+    overflow: hidden;
     scroll-snap-align: center;
   }
   a {
     text-decoration: none;
     color: inherit;
   }
+
   ::-webkit-scrollbar {
     width: 0px;
     height: 0px;
@@ -41,9 +46,18 @@
     @apply flex flex-col items-center justify-between;
   }
   .sidebar {
-    @apply fixed h-full w-[40%] flex-col items-start gap-10 bg-dark-200 pl-4 pt-10 sm:pl-5 md:w-[35%] md:pl-10 lg:w-[25%];
+    @apply fixed  flex h-full w-[40%] flex-col items-start gap-10 bg-dark-200 pl-4 pt-10 sm:pl-5 md:w-[35%] md:pl-10 lg:w-[25%];
   }
   .button {
     border: 2px rgb(207, 207, 207) solid;
+  }
+  .bg-mountain {
+    background-image: url("/mountains.png");
+  }
+  .s-h1 {
+    font-weight: 100;
+  }
+  .hr {
+    border: 0.5px solid gray;
   }
 }

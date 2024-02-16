@@ -11,3 +11,25 @@ export const pageLinks = [
   { Url: "Contact", iconUrl: "/public/icons8-connect.svg" },
   { Url: "About", iconUrl: "/public/icons8-about.svg" },
 ];
+export const servicesDescription = [
+  {
+    id: 1,
+    Description:
+      "Lorem ipsum dolor sitametconsectetur adipisicing elit. Nostrumlibero enim nisi aliquam consectetur expedita magni eius ex corruptianimi! Ad nam pariatur assumenda quae mollitia libero repellat explicabo maiores?",
+  },
+  {
+    id: 2,
+    Description:
+      "Lorem ipsum dolor sitametconsectetur adipisicing elit. Nostrumlibero enim nisi aliquam consectetur expedita magni eius ex corruptianimi! Ad nam pariatur assumenda quae mollitia libero repellat explicabo maiores?",
+  },
+  {
+    id: 3,
+    Description:
+      "Lorem ipsum dolor sitametconsectetur adipisicing elit. Nostrumlibero enim nisi aliquam consectetur expedita magni eius ex corruptianimi! Ad nam pariatur assumenda quae mollitia libero repellat explicabo maiores?",
+  },
+  {
+    id: 4,
+    Description:
+      "Lorem ipsum dolor sitametconsectetur adipisicing elit. Nostrumlibero enim nisi aliquam consectetur expedita magni eius ex corruptianimi! Ad nam pariatur assumenda quae mollitia libero repellat explicabo maiores?",
+  },
+];
